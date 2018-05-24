@@ -7,7 +7,6 @@ pipeline {
             steps {
                 echo 'Building..'
                 bat 'set'
-                bat 'java -version'
             }
         }
         stage('Test') {
