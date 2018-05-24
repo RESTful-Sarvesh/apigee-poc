@@ -23,13 +23,5 @@ pipeline {
                 sh 'make check || true'
             }
         }
-        post {
-            always {
-                junit '**/target/*.xml'
-            }
-            failure {
-            mail to: 'amit.prajapati@pwc.com', subject: 'The Pipeline failed :('
-            }
-        }
     }
 }
