@@ -20,7 +20,6 @@ pipeline {
             steps {
                 echo 'Deploying....'
                 bat 'mvn --version'
-                sh 'make check || true'
             }
         }
     }
