@@ -1,0 +1,235 @@
+[2018-05-30 04:22:25 PM] Using defaults from /usr/local/share/configFile
+[2018-05-30 04:22:25 PM] setup.sh: Info: Check for system requirements is not enabled.
+[2018-05-30 04:22:25 PM] setup.sh: Info: Enable system requirements check by setting ENABLE_SYSTEM_CHECK=y 
+[2018-05-30 04:22:25 PM] setup.sh: Info: To run system requirements check without installing the profile use -t option
+[2018-05-30 04:22:25 PM] 
+[2018-05-30 04:22:25 PM] 0) 10.63.252.38
+[2018-05-30 04:22:25 PM] 1) 192.168.122.1
+[2018-05-30 04:22:25 PM] Select an IP address to use for this host: 
+[2018-05-30 04:22:28 PM] 10.63.252.38
+[2018-05-30 04:22:28 PM] setup.sh: Proceeding with HOSTIP 10.63.252.38
+[2018-05-30 04:22:28 PM] 
+Service setup apigee-qpidd
+
+Loaded plugins: langpacks, priorities, ulninfo
+1004 packages excluded due to repository priority protections
+No packages marked for update
+/software/apigee/apigee-lib/apigee-lib.sh: line 943: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+Validating setup variables
+/usr/local/share/configFile: line 7: $'\r': command not found
+/usr/local/share/configFile: line 9: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+/usr/local/share/configFile: line 10: $'\r': command not found
+/usr/local/share/configFile: line 13: $'\r': command not found
+/usr/local/share/configFile: line 16: $'\r': command not found
+/usr/local/share/configFile: line 20: $'\r': command not found
+/usr/local/share/configFile: line 22: $'\r': command not found
+/usr/local/share/configFile: line 23: $'\r': command not found
+/usr/local/share/configFile: line 26: $'\r': command not found
+/usr/local/share/configFile: line 28: $'\r': command not found
+/usr/local/share/configFile: line 29: $'\r': command not found
+/usr/local/share/configFile: line 32: $'\r': command not found
+/usr/local/share/configFile: line 33: $'\r': command not found
+/usr/local/share/configFile: line 39: $'\r': command not found
+/usr/local/share/configFile: line 40: $'\r': command not found
+/usr/local/share/configFile: line 45: $'\r': command not found
+/usr/local/share/configFile: line 47: $'\r': command not found
+/usr/local/share/configFile: line 48: $'\r': command not found
+/usr/local/share/configFile: line 52: $'\r': command not found
+/usr/local/share/configFile: line 53: $'\r': command not found
+/usr/local/share/configFile: line 58: $'\r': command not found
+/usr/local/share/configFile: line 62: $'\r': command not found
+/usr/local/share/configFile: line 63: $'\r': command not found
+/usr/local/share/configFile: line 64: $'\r': command not found
+/usr/local/share/configFile: line 70: $'\r': command not found
+/usr/local/share/configFile: line 71: $'\r': command not found
+/usr/local/share/configFile: line 74: $'\r': command not found
+/usr/local/share/configFile: line 75: $'\r': command not found
+/usr/local/share/configFile: line 81: $'\r': command not found
+/usr/local/share/configFile: line 82: $'\r': command not found
+/usr/local/share/configFile: line 87: $'\r': command not found
+/usr/local/share/configFile: line 92: $'\r': command not found
+/usr/local/share/configFile: line 93: $'\r': command not found
+/usr/local/share/configFile: line 96: $'\r': command not found
+/usr/local/share/configFile: line 97: $'\r': command not found
+/usr/local/share/configFile: line 99: $'\r': command not found
+
+apigee-service: apigee-qpidd: pid=2626
+apigee-service: apigee-qpidd: Not running (DEAD)
+apigee-service: apigee-qpidd: OK
+apigee-configutil: apigee-qpidd: # OK
+apigee-service: apigee-qpidd: Not running (NO_LOCKFILE)
+apigee-service: apigee-qpidd: status=2, continuing
+apigee-service: apigee-qpidd: OK
+apigee-service: apigee-qpidd: apigee-qpidd is running
+[2018-05-30 04:22:36 PM] 
+Finished apigee-qpidd setup
+
+[2018-05-30 04:22:36 PM] 
+Service setup edge-qpid-server
+
+Loaded plugins: langpacks, priorities, ulninfo
+1004 packages excluded due to repository priority protections
+[2018-05-30 04:23:10 PM] Using defaults from /usr/local/share/configFile
+[2018-05-30 04:24:49 PM] Using defaults from /usr/local/share/configFile
+[2018-05-30 04:24:49 PM] setup.sh: Info: Check for system requirements is not enabled.
+[2018-05-30 04:24:49 PM] setup.sh: Info: Enable system requirements check by setting ENABLE_SYSTEM_CHECK=y 
+[2018-05-30 04:24:49 PM] setup.sh: Info: To run system requirements check without installing the profile use -t option
+[2018-05-30 04:24:49 PM] 
+[2018-05-30 04:24:49 PM] 0) 10.63.252.38
+[2018-05-30 04:24:49 PM] 1) 192.168.122.1
+[2018-05-30 04:24:49 PM] Select an IP address to use for this host: 
+[2018-05-30 04:24:52 PM] 10.63.252.38
+[2018-05-30 04:24:52 PM] setup.sh: Proceeding with HOSTIP 10.63.252.38
+[2018-05-30 04:24:52 PM] 
+Service setup apigee-qpidd
+
+Loaded plugins: langpacks, priorities, ulninfo
+1004 packages excluded due to repository priority protections
+No packages marked for update
+/software/apigee/apigee-lib/apigee-lib.sh: line 943: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+Validating setup variables
+/usr/local/share/configFile: line 7: $'\r': command not found
+/usr/local/share/configFile: line 9: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+/usr/local/share/configFile: line 10: $'\r': command not found
+/usr/local/share/configFile: line 13: $'\r': command not found
+/usr/local/share/configFile: line 16: $'\r': command not found
+/usr/local/share/configFile: line 20: $'\r': command not found
+/usr/local/share/configFile: line 22: $'\r': command not found
+/usr/local/share/configFile: line 23: $'\r': command not found
+/usr/local/share/configFile: line 26: $'\r': command not found
+/usr/local/share/configFile: line 28: $'\r': command not found
+/usr/local/share/configFile: line 29: $'\r': command not found
+/usr/local/share/configFile: line 32: $'\r': command not found
+/usr/local/share/configFile: line 33: $'\r': command not found
+/usr/local/share/configFile: line 39: $'\r': command not found
+/usr/local/share/configFile: line 40: $'\r': command not found
+/usr/local/share/configFile: line 45: $'\r': command not found
+/usr/local/share/configFile: line 47: $'\r': command not found
+/usr/local/share/configFile: line 48: $'\r': command not found
+/usr/local/share/configFile: line 52: $'\r': command not found
+/usr/local/share/configFile: line 53: $'\r': command not found
+/usr/local/share/configFile: line 58: $'\r': command not found
+/usr/local/share/configFile: line 62: $'\r': command not found
+/usr/local/share/configFile: line 63: $'\r': command not found
+/usr/local/share/configFile: line 64: $'\r': command not found
+/usr/local/share/configFile: line 70: $'\r': command not found
+/usr/local/share/configFile: line 71: $'\r': command not found
+/usr/local/share/configFile: line 74: $'\r': command not found
+/usr/local/share/configFile: line 75: $'\r': command not found
+/usr/local/share/configFile: line 81: $'\r': command not found
+/usr/local/share/configFile: line 82: $'\r': command not found
+/usr/local/share/configFile: line 87: $'\r': command not found
+/usr/local/share/configFile: line 92: $'\r': command not found
+/usr/local/share/configFile: line 93: $'\r': command not found
+/usr/local/share/configFile: line 96: $'\r': command not found
+/usr/local/share/configFile: line 97: $'\r': command not found
+/usr/local/share/configFile: line 99: $'\r': command not found
+
+apigee-service: apigee-qpidd: pid=4624
+apigee-service: apigee-qpidd: Not running (DEAD)
+apigee-service: apigee-qpidd: OK
+apigee-configutil: apigee-qpidd: # OK
+apigee-service: apigee-qpidd: Not running (NO_LOCKFILE)
+apigee-service: apigee-qpidd: status=2, continuing
+apigee-service: apigee-qpidd: OK
+apigee-service: apigee-qpidd: apigee-qpidd is running
+[2018-05-30 04:25:01 PM] 
+Finished apigee-qpidd setup
+
+[2018-05-30 04:25:01 PM] 
+Service setup edge-qpid-server
+
+Loaded plugins: langpacks, priorities, ulninfo
+1004 packages excluded due to repository priority protections
+No packages marked for update
+/software/apigee/apigee-lib/apigee-lib.sh: line 943: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+Checking for required variables
+Checking required variable ZK_CLIENT_HOSTS...OK
+Checking required variable REGION...OK
+
+Checking for optional variables
+Found optional variable MP_POD...OK
+Stopping edge-qpid-server
+apigee-service: edge-qpid-server: pid=3471
+apigee-service: edge-qpid-server: OK
+apigee-service: edge-qpid-server: OK
+apigee-service: edge-qpid-server: Not running (DEAD)
+apigee-service: edge-qpid-server: OK
+updated property conf_zookeeper_connection.string in file /software/apigee/token/application/qpid-server.properties
+updated property conf_system_region in file /software/apigee/token/application/qpid-server.properties
+updated property conf_query-service_pgDefaultUser in file /software/apigee/token/application/qpid-server.properties
+updated property conf_query-service_dwDefaultUser in file /software/apigee/token/application/qpid-server.properties
+updated property conf_analytics_aries.pg.username in file /software/apigee/token/application/qpid-server.properties
+updated property conf_pg-ingest_userName in file /software/apigee/token/application/qpid-server.properties
+updated property conf_pg-agent_userName in file /software/apigee/token/application/qpid-server.properties
+updated property conf_pg-agent_password in file /software/apigee/token/application/qpid-server.properties
+updated property conf_pg-ingest_password in file /software/apigee/token/application/qpid-server.properties
+updated property conf_query-service_pgDefaultPwd in file /software/apigee/token/application/qpid-server.properties
+updated property conf_query-service_dwDefaultPwd in file /software/apigee/token/application/qpid-server.properties
+updated property conf_analytics_aries.pg.password in file /software/apigee/token/application/qpid-server.properties
+apigee-configutil: edge-qpid-server: # OK
+apigee-service: edge-qpid-server: edge-qpid-server is not running
+apigee-configutil: edge-qpid-server: # OK
+apigee-service: edge-qpid-server: Not running (NO_LOCKFILE)
+apigee-service: edge-qpid-server: status=2, continuing
+apigee-service: edge-qpid-server: OK
+apigee-service: edge-qpid-server: edge-qpid-server is running
+Checking for qpid-server on 127.0.0.1 port 8083  ..... OK
+Checking for qpid-server uuid  8a98de7d-bb3b-49c8-b7b8-8b430fca7543
+Checking if qpid-server is up .qpid-server is up.
+[2018-05-30 04:25:23 PM] 
+Finished edge-qpid-server setup
+
+[2018-05-30 04:25:23 PM] 
+Service setup apigee-postgresql
+
+Loaded plugins: langpacks, priorities, ulninfo
+1004 packages excluded due to repository priority protections
+No packages marked for update
+/software/apigee/apigee-lib/apigee-lib.sh: line 943: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+Validating setup variables
+/usr/local/share/configFile: line 7: $'\r': command not found
+/usr/local/share/configFile: line 9: ?HOSTIP=fe80::dce6:8d95:b92:9b2d%ens160: command not found
+/usr/local/share/configFile: line 10: $'\r': command not found
+/usr/local/share/configFile: line 13: $'\r': command not found
+/usr/local/share/configFile: line 16: $'\r': command not found
+/usr/local/share/configFile: line 20: $'\r': command not found
+/usr/local/share/configFile: line 22: $'\r': command not found
+/usr/local/share/configFile: line 23: $'\r': command not found
+/usr/local/share/configFile: line 26: $'\r': command not found
+/usr/local/share/configFile: line 28: $'\r': command not found
+/usr/local/share/configFile: line 29: $'\r': command not found
+/usr/local/share/configFile: line 32: $'\r': command not found
+/usr/local/share/configFile: line 33: $'\r': command not found
+/usr/local/share/configFile: line 39: $'\r': command not found
+/usr/local/share/configFile: line 40: $'\r': command not found
+/usr/local/share/configFile: line 45: $'\r': command not found
+/usr/local/share/configFile: line 47: $'\r': command not found
+/usr/local/share/configFile: line 48: $'\r': command not found
+/usr/local/share/configFile: line 52: $'\r': command not found
+/usr/local/share/configFile: line 53: $'\r': command not found
+/usr/local/share/configFile: line 58: $'\r': command not found
+/usr/local/share/configFile: line 62: $'\r': command not found
+/usr/local/share/configFile: line 63: $'\r': command not found
+/usr/local/share/configFile: line 64: $'\r': command not found
+/usr/local/share/configFile: line 70: $'\r': command not found
+/usr/local/share/configFile: line 71: $'\r': command not found
+/usr/local/share/configFile: line 74: $'\r': command not found
+/usr/local/share/configFile: line 75: $'\r': command not found
+/usr/local/share/configFile: line 81: $'\r': command not found
+/usr/local/share/configFile: line 82: $'\r': command not found
+/usr/local/share/configFile: line 87: $'\r': command not found
+/usr/local/share/configFile: line 92: $'\r': command not found
+/usr/local/share/configFile: line 93: $'\r': command not found
+/usr/local/share/configFile: line 96: $'\r': command not found
+/usr/local/share/configFile: line 97: $'\r': command not found
+/usr/local/share/configFile: line 99: $'\r': command not found
+Checking for required variables
+Checking required variable HOSTIP...OK
+Checking required variable RUN_USER...OK
+Checking required variable RUN_GROUP...OK
+
+Checking for optional variables
+Found optional variable PG_MASTER...Unknown
+Found optional variable PG_STANDBY...Unknown
+[2018-05-30 04:25:30 PM] Error: setup.sh: /opt/apigee/apigee-service/bin/apigee-service exited with unexpected status 1
