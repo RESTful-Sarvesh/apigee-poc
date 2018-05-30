@@ -1,0 +1,103 @@
+# 5 Node setup
+IP1=10.63.252.15 # Zookeeper, Cassandra, Edge UI, Open LDAP, Management Server
+IP2=10.63.252.16 # Zookeeper, Cassandra, Router, Message processor
+IP3=10.63.252.17 # Zookeeper, Cassandra, Router, Message Processor
+IP4=10.63.252.38 # QPID, Postgres (master)
+IP5=10.63.252.39 # QPID, Postgres (Slave)
+
+# This must resolve in single / multiple ip. In case of multiple IPs, it ENABLE_DYNAMI_HOOSTIP should be configured "y" so that during installation, a correct IP can be selected
+?HOSTIP=$(hostname -i)
+
+# This checks the system configuration / sizing before installation
+ENABLE_SYSTEM_CHECK=n
+
+# This should be "y" only when hostname -i returns multiple IP. By default Edge picks up the first IP which may not be correct in all # scenario. Hence setting it to "y" shall ask user to select the IP
+ENABLE_DYNAMIC_HOSTIP=y
+
+# Edge sysadmin credentials. Generally it is your organization email id
+ADMIN_EMAIL=rupesh.mehta@relianceada.com
+APIGEE_ADMINPW=Secret123
+
+# Location of the license file
+LICENSE_FILE=/tmp/license.txt 
+
+# Management server information
+# -----------------------------------
+
+# IP or host of server where Management server will be hosted
+MSIP=$IP1 
+
+# Specify the port the Management Server listens on for API calls.
+# APIGEE_PORT_HTTP_MS=8080    # Default is 8080.
+
+
+#
+# OpenLDAP information.
+#
+# Set to y if you are connecting to a remote LDAP server.
+# If n, Edge installs OpenLDAP when it installs the Management Server.
+USE_LDAP_REMOTE_HOST=n 
+
+# If connecting to remote OpenLDAP server, specify the IP/DNS name and port.
+# LDAP_HOST=$IP1    # IP or DNS name of OpenLDAP node.
+# LDAP_PORT=10389   # Default is 10389.
+APIGEE_LDAPPW=secret
+
+# Specify OpenLDAP without replication, 1, or with replication, 2.
+LDAP_TYPE=1 
+
+# Set only if using replication.
+# LDAP_SID=1    # Unique ID for this LDAP server.
+# LDAP_PEER=    # IP or DNS name of LDAP peer.
+
+
+#
+# Message processor
+#
+MP_POD=gateway
+
+# The name of the region, corresponding to the data center name.
+REGION=dc-1 # Use dc-1 unless installing in a
+            # multi-data center environment.
+            
+
+
+#
+# Zookeeper Details
+#
+ZK_HOSTS="$IP1 $IP2 $IP3"  # IP / Host name of zookeeper nodes
+ZK_CLIENT_HOSTS="$IP1 $IP2 $IP3"  # IP / Hostname of zookeeper node
+
+
+# Cassandra
+# Must use IP addresses for CASS_HOSTS, not DNS names.
+CASS_HOSTS="$IP1 $IP2 $IP3" 
+
+# Set to enable Cassandra authentication.
+# CASS_AUTH=y    # The default value is n.
+# Cassandra uname/pword required if you enabled Cassandra authentication.
+# CASS_USERNAME=
+# CASS_PASSWORD=
+
+
+# Postgres username and password as set when you installed Edge.
+# Default is apigee:postgres.
+PG_USER=apigee
+PG_PWD=postgres
+
+# Use to enable Postgres master-standby replication
+# when you have multiple Postgres nodes. 
+PG_MASTER=$IP4
+PG_STANDBY=$IP5
+
+
+# SMTP - Skipping at the time of installation
+SKIP_SMTP=y
+SMTPHOST=smtp.example.com 
+SMTPUSER=smtp@example.com  
+# omit for no username
+SMTPPASSWORD=smtppwd       
+# omit for no password 
+SMTPSSL=n
+SMTPPORT=25
+SMTPMAILFROM="My Company <myco@company.com>"
