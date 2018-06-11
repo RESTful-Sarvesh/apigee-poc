@@ -1,0 +1,56 @@
+IP1=10.63.252.15
+
+# Specify the IP or DNS name of the Management Server.
+MSIP="$IP1"
+
+# Specify the Edge sys admin credentials.
+ADMIN_EMAIL="rupesh.mehta@relianceada.com"
+APIGEE_ADMINPW=Secret123
+
+# Specify organization name.
+# lowercase only, no spaces, underscores, or periods.
+ORG_NAME=reliancehealth 
+
+# Specify the organization administrator user.
+# Either specify an existing user, or specify the information
+# necessary to create a new user.
+# Do not use the sys admin as the organization administrator.
+#
+# Create a new user for the organization administrator. 
+NEW_USER="y"
+# New user information if NEW_USER="y".
+USER_NAME=orgadmin@relianceada.com
+FIRST_NAME=Admin
+LAST_NAME=Organization
+#password must contain atleast one capital letter
+USER_PWD="Admin@123"
+ORG_ADMIN=orgadmin@relianceada.com
+#
+# Or, specify an existing user as the organization admin,
+# omit USER_NAME, FIRST_NAME, LAST_NAME, USER_PWD.
+# NEW_USER="n"
+# ORG_ADMIN=existing@user.com
+
+# Specify environment name. 
+ENV_NAME=dev
+
+# Specify virtual host information.
+VHOST_PORT=9001
+VHOST_NAME=default
+
+# If you have a DNS entry for the virtual host.
+#VHOST_ALIAS=api-dev.reliancehealthinsurance.com
+
+# If you do not have a DNS entry for the virtual host, 
+# specify the IP and port of each router as a space-separated list:
+ VHOST_ALIAS="10.63.252.16:9001 10.63.252.17:9001" 
+
+# Optionally configure TLS/SSL for virtual host.
+# VHOST_SSL=y     # Set to "y" to enable TLS/SSL on the virtual host.
+# KEYSTORE_JAR=   # JAR file containing the cert and private key.
+# KEYSTORE_NAME=  # Name of the keystore. 
+# KEYSTORE_ALIAS= # The key alias.
+# KEY_PASSWORD=   # The key password, if it has one. 
+
+# Specify the analytics group. 
+AXGROUP=api-dev-axgroup # Default name is axgroup-001.
